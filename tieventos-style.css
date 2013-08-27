@@ -1,0 +1,63 @@
+div.tieventos-ticker{
+	margin: 5px;
+}
+
+div.tieventos-ticker > ul {
+	background: #fff; 
+	border: 1px solid #d2d2d2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	height: 446px;
+	overflow: hidden;
+}
+
+div.tieventos-ticker > ul  > li{
+	float: left;
+	padding: 12px 18px;
+	width: 255px; 
+	margin: 0 0 5px 0; 
+	border-bottom: 1px solid #e2e2e2;
+	display: none;
+}
+
+div.tieventos-ticker > ul  > li:last-child{
+	border-bottom: none;
+}
+
+div.tieventos-image{
+	float: left;
+}
+
+div.tieventos-image > a{
+	width: 45px; 
+	height: 45px; 
+	padding: 2px; 
+	border: 1px solid #c6c6c6; 
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	margin: 0; 
+	display: block;
+}
+
+div.tieventos-details{
+	float: left;
+	margin: 0 0 0 14px;
+	width: 189px;
+}
+
+div.tieventos-details > h5{
+	float: left;
+	width: 175px;
+}
+
+div.tieventos-details > span{
+	float: left;
+	width: 175px;
+	margin:0; 
+	font-style: italic;
+	font-size: 11px;
+	color: #aaaaaa;
+}
